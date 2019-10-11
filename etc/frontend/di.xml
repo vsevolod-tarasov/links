@@ -3,4 +3,7 @@
     <type name="Magento\Framework\View\Element\Html\Link\Current">
         <plugin name="remove_trailing_slash" type="VT\Links\Plugin\View\Element\Html\Link\Current"/>
     </type>
+    <type name="Magento\Framework\UrlInterface">
+        <plugin name="remove_trailing_slash" type="VT\Links\Plugin\UrlBuilder"/>
+    </type>
 </config>

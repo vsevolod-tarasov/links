@@ -1,7 +1,10 @@
 # VT/Links
 
 Remove Trailing Slash from all hrefs in magento 2.3.3.
-Works for links output via Magento\Framework\View\Element\Html\Link\Current::getHref
+Works for links output via:
+
+    Magento\Framework\View\Element\Html\Link\Current::getHref
+    Magento\Framework\UrlInterface::getUrl
 
 # To install extension
 
